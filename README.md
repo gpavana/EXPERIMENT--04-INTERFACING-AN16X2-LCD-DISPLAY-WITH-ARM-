@@ -1,12 +1,9 @@
-```
-Name : PAVANA.G
-Roll no : 212222230105
-```
-# EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
 
- ## Aim: To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
-## Components required: STM32 CUBE IDE, Proteus 8 simulator .
-## Theory 
+### EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
+### DATE:
+#### Aim: To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
+#### Components required: STM32 CUBE IDE, Proteus 8 simulator .
+#### Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
 
 What is an ARM7 Processor?
@@ -19,7 +16,7 @@ interfaces Datasheet - production data Features
 • Memories – Up to 256 Kbytes of Flash memory – Up to 64 Kbytes of SRAM
 
 
-   ## LCD 16X2 
+   ##### LCD 16X2 
    16×2 LCD is named so because; it has 16 Columns and 2 Rows. There are a lot of combinations available like,
    8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
 
@@ -117,7 +114,7 @@ C2
 
 Jump to second line, position 2
  
-## Procedure:
+#### Procedure:
  1. click on STM 32 CUBE IDE, the following screen will appear 
 
  2. click on FILE, click on new stm 32 project 
@@ -152,11 +149,15 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 15. click on debug and simulate using simulation as shown below 
 
 
-## CIRCUIT DIAGRAM 
+#### CIRCUIT DIAGRAM 
 ![image](https://user-images.githubusercontent.com/36288975/233857974-bda6200e-4f88-4e7b-b189-4da80210fa23.png)
 
 
-## STM 32 CUBE PROGRAM :
+#### STM 32 CUBE PROGRAM :
+```
+DEVELOPED BY:PAVANA.G
+REGISTER NUMBER:212222230105
+```
 ```c++
 #include "main.h"
 #include "lcd.h"
@@ -265,13 +266,13 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ```
-## Output screen shots of proteus  :
+#### Output screen shots of proteus  :
 ![lcd](https://github.com/d-kavinraja/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119875375/92e3b0e7-8019-4674-998d-47ddd88bed20)
  
  
-## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
+#### CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
   ![image](https://github.com/gpavana/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118787343/d35bc5da-2596-498c-b8c0-7d87d7a071b5)
 
-## Result :
+#### Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
 
